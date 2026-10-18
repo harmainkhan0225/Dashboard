@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="dashboard-page">
+
+        <!-- Header -->
+        <header class="dashboard-header">
+            <h1> Academy Dashboard</h1>
+        </header>
+
+        <!-- Sidebar -->
+        <aside class="dashboard-sidebar">
+            <h2>Admin Panel</h2>
+
+            <nav class="sidebar-menu">
+                <a href="#">Overview</a>
+                <a href="#">Students</a>
+                <a href="#">Teachers</a>
+                <a href="#">Reports</a>
+                <a href="#">Settings</a>
+            </nav>
+        </aside>
+
+        <!-- Main Dashboard Area -->
+        <main class="dashboard-main">
+
+            <h2 class="welcome-title">Welcome, Admin!</h2>
+
+            <!-- Statistics Cards -->
+            <section class="stats-grid">
+
+                <article class="stat-card students-card">
+                    <h3>Students</h3>
+                    <p>1,250</p>
+                    <span>Total Students</span>
+                </article>
+
+                <article class="stat-card teachers-card">
+                    <h3>Teachers</h3>
+                    <p>85</p>
+                    <span>Total Teachers</span>
+                </article>
+
+                <article class="stat-card classes-card">
+                    <h3>Classes</h3>
+                    <p>32</p>
+                    <span>Active Classes</span>
+                </article>
+
+                <article class="stat-card attendance-card">
+                    <h3>Attendance</h3>
+                    <p>94%</p>
+                    <span>Today's Attendance</span>
+                </article>
+
+            </section>
+
+            <!-- Chart and Recent Activity -->
+            <section class="dashboard-panels">
+
+                <!-- Monthly Result Chart -->
+                <article class="chart-panel">
+                    <h2>Monthly Result Chart</h2>
+                    <p>Student performance overview</p>
+
+                    <div class="chart-bars">
+                        <div class="bar-item">
+                            <div class="chart-bar bar-one"></div>
+                            <span>Jan</span>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="chart-bar bar-two"></div>
+                            <span>Feb</span>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="chart-bar bar-three"></div>
+                            <span>Mar</span>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="chart-bar bar-four"></div>
+                            <span>Apr</span>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="chart-bar bar-five"></div>
+                            <span>May</span>
+                        </div>
+
+                        <div class="bar-item">
+                            <div class="chart-bar bar-six"></div>
+                            <span>Jun</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Recent Activity -->
+                <article class="activity-panel">
+                    <h2>Recent Activity</h2>
+
+                    <ul>
+                        <li>New student admitted</li>
+                        <li>Teacher attendance updated</li>
+                        <li>Monthly results uploaded</li>
+                        <li>Class timetable changed</li>
+                        <li>New notice published</li>
+                    </ul>
+                </article>
+
+                <!-- Notice Panel -->
+                <article class="notice-panel">
+                    <h2>School Notices</h2>
+
+                    <p>
+                        <strong>Notice 1:</strong>
+                        Mid-term examinations will begin next Monday.
+                    </p>
+
+                    <p>
+                        <strong>Notice 2:</strong>
+                        Parent-teacher meeting will be held this Friday.
+                    </p>
+                </article>
+
+                <!-- Student Table -->
+                <article class="table-panel">
+                    <h2>Student Results</h2>
+
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Class</th>
+                                    <th>Marks</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>Ali Ahmed</td>
+                                    <td>12th</td>
+                                    <td>92</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Sara Khan</td>
+                                    <td>11th</td>
+                                    <td>88</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Usman Ali</td>
+                                    <td>10th</td>
+                                    <td>85</td>
+                                </tr>
+
+                                <tr>
+                                    <td>Fatima Noor</td>
+                                    <td>9th</td>
+                                    <td>95</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="dashboard-footer">
+            <p>&copy; 2026 School Dashboard. All Rights Reserved.</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
